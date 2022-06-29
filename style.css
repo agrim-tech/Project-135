@@ -1,0 +1,21 @@
+body{
+    background-image: url("background.jpg");
+    background-size: cover;
+    font-family: 'Libre Franklin', sans-serif;  
+}
+#objectname{
+    width: 280px!important;
+}
+.heading{
+    width:100%;
+    font-size: 30px;
+}
+.note{
+    font-size: 18px;
+}
+canvas{
+    border:3px solid rgb(31, 31, 31);
+    border-radius: 20px;
+    background-color: rgb(231, 231, 231);
+    box-shadow: 5px 10px 10px rgb(51, 51, 51);
+}

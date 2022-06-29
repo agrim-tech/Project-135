@@ -1,0 +1,38 @@
+<html>
+
+<head>
+
+    <title>AI Object Finder</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@300&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <center>
+        <h1 class="btn btn-success heading">AI Object Finder
+            <br>
+            <span class="note">The input name which you will give should match the names present in Cocossd model then only it will detect</span>
+        </h1>
+        <br><br>
+        <input class="form-control" id="objectname" type="text" placeholder="Enter Object To Be Searched For">
+        <br>
+        <button class="btn btn-info" id="start" onclick="start()">Start</button>
+        <br><br>
+        <button class="btn btn-primary" id="status"></button>
+        <br><br>
+        <button class="btn btn-success" id="result"></button>
+    </center>
+</body>
+
+</html>
