@@ -1,7 +1,13 @@
+html{
+    overflow: hidden;
+}
 body{
     background-image: url("background.jpg");
     background-size: cover;
     font-family: 'Libre Franklin', sans-serif;  
+    height: 100%;
+    margin: 0;
+    scroll-snap-type: none;
 }
 #objectname{
     width: 280px!important;
@@ -18,4 +24,5 @@ canvas{
     border-radius: 20px;
     background-color: rgb(231, 231, 231);
     box-shadow: 5px 10px 10px rgb(51, 51, 51);
+    margin-top: 115px !important;
 }
